@@ -1,0 +1,82 @@
+#star {
+  overflow: hidden;
+  margin-top: 44px;
+  margin-bottom: 40px;
+  height: 380px;
+}
+#star .title {
+  overflow: hidden;
+  margin-bottom: 14px;
+  width: 100%;
+}
+#star h3 {
+  display: inline-block;
+  float: left;
+  font-weight: normal;
+}
+#star span {
+  width: 34px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  color: #E0E0E0;
+  border: 1px solid #E0E0E0;
+  float: right;
+}
+#star span a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #ccc;
+}
+#star span:hover a {
+  color: orangered;
+}
+#star .products {
+  width: 300%;
+  clear: both;
+}
+#star .products li {
+  float: left;
+  margin-right: 15px;
+  border-top: 1px solid orangered;
+  width: 233px;
+  height: 340px;
+  background-color: #FAFAFA;
+  text-align: center;
+}
+#star .products li:first-child {
+  border-top: 1px solid orangered;
+}
+#star .products li:nth-of-type(2) {
+  border-top: 1px solid #83c44e;
+}
+#star .products li:nth-of-type(3) {
+  border-top: 1px solid #e53935;
+}
+#star .products li:nth-of-type(4) {
+  border-top: 1px solid #2196f3;
+}
+#star .products li:last-child {
+  border-top: 1px solid #2196f3;
+}
+#star .products li .text {
+  line-height: 24px;
+}
+#star .products li img {
+  margin: 52px 0 29px 0;
+  height: 145px;
+}
+#star .products li h4 {
+  font-size: 14px;
+  font-weight: normal;
+}
+#star .products li p {
+  color: #CCCCCC;
+  font-size: 12px;
+}
+#star .products li .price {
+  border: none;
+  float: none;
+  color: orangered;
+}

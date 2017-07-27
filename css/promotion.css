@@ -1,0 +1,35 @@
+#promotion {
+  height: 170px;
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+#promotion .options {
+  display: inline-block;
+  width: 233px;
+  background: url(../images/promotion_bg.png) no-repeat;
+}
+#promotion .options li {
+  float: left;
+  width: 77px;
+  padding-top: 12px;
+  height: 84px;
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
+  cursor: pointer;
+}
+#promotion .options li i {
+  font-size: 24px;
+}
+#promotion .options li p {
+  margin-top: 3px;
+}
+#promotion .options li:hover {
+  color: white;
+}
+#promotion img {
+  display: inline-block;
+  width: 315px;
+  height: 100%;
+}

@@ -1,0 +1,129 @@
+#flash {
+    position: relative;
+    height: 460px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .left-arrow, .right-arrow{
+        position: absolute;
+        top: 195px;
+        width: 42px;
+        height: 69px;
+        cursor: pointer;
+        background: url(../images/icon-slides.png) no-repeat;
+    }
+    .left-arrow{
+        left: 232px;
+        background-position: -84px 0;
+        &:hover{
+            background-position: 0 0;
+        }
+    }
+    .right-arrow{
+        right: 0;
+        background-position: -126px 0;
+        &:hover{
+            background-position: -42px 0;
+        }
+    }
+    .circle-point{
+        position: absolute;
+        right: 34px;
+        bottom: 25px;
+        li{
+            float: left;
+            margin: 5px;
+            width: 6px;
+            height: 6px;
+            background-color: #777D88;
+            border: 2px solid #A0A5AC;
+            border-radius: 50%;
+            cursor: pointer;
+            &.now{
+                background-color: white;
+            }
+            &:hover{
+                background-color: white;
+            }
+        }
+    }
+    aside {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 232px;
+        height: 460px;
+        padding-top: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        li {
+            text-align: left;
+            height: 42px;
+            line-height: 42px;
+            width: 100%;
+            a {
+                font-size: 14px;
+                display: inline-block;
+                width: 80%;
+                height: 100%;
+                color: white;
+                text-indent: 20px;
+            }
+            &:hover {
+                background-color: orangered;
+            }
+            i {
+                float: right;
+                margin-right: 20px;
+                color: #ccc;
+            }
+            &:hover .subnav {
+                display: block;
+            }
+            .subnav {
+                z-index: 999;
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 232px;
+                width: 995px;
+                height: 460px;
+                box-shadow: 0 3px 5px gray;
+                background-color: white;
+                ul {
+                    float: left;
+                    color: black;
+                    display: inline-block;
+                    width: 248px;
+                    li {
+                        background-color: white!important;
+                        height: 77px;
+                        width: 100%;
+                        overflow: hidden;
+                        a {
+                            position: absolute;
+                            z-index: 9999;
+                            display: block;
+                            width: 248px;
+                            height: 77px;
+                            color: black;
+                            &:hover{
+                                color: orangered;
+                            }
+                            img {
+                                width: 40px;
+                                height: 40px;
+                                vertical-align: -19px;
+                            }
+                        }
+                    }
+                }
+            }
+            .subnav2 {
+                width: 224px;
+            }
+        }
+    }
+}

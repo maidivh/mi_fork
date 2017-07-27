@@ -1,0 +1,78 @@
+#nav {
+  height: 100px;
+}
+#nav [src="images/mi-logo.png"] {
+  margin-top: 27px;
+  width: 49px;
+  height: 49px;
+  background-color: orangered;
+}
+#nav [src="images/yyymix.gif"] {
+  vertical-align: -9px;
+}
+#nav .nav {
+  vertical-align: 15px;
+  display: inline-block;
+}
+#nav .nav li {
+  margin-right: 16px;
+  float: left;
+}
+#nav .nav li a {
+  color: black;
+}
+#nav .nav li a:hover {
+  color: orangered;
+}
+#nav .search {
+  display: inline-block;
+  float: right;
+  margin-top: 25px;
+}
+#nav .search form {
+  position: relative;
+  overflow: hidden;
+}
+#nav .search [name="search"] {
+  float: right;
+  height: 10px;
+  width: 227px;
+  padding: 19px 8px;
+  border: 1px solid #CCCCCC;
+}
+#nav .search [name="search"]:focus {
+  outline-color: orangered;
+}
+#nav .search [name="submit"] {
+  float: right;
+  height: 50px;
+  width: 52px;
+  border: 1px solid #CCCCCC;
+  border-left: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 25px;
+}
+#nav .search [name="submit"]:hover {
+  color: white;
+  background-color: orangered;
+}
+#nav .search .tips {
+  position: absolute;
+  top: 15px;
+  right: 65px;
+}
+#nav .search .tips span {
+  padding: 0 4px;
+  font-size: 12px;
+  background-color: #eee;
+  color: #999;
+  cursor: pointer;
+}
+#nav .search .tips span:hover {
+  color: white;
+  background-color: orangered;
+}
+#nav .search input:focus + div {
+  display: none;
+}

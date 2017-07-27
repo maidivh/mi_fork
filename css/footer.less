@@ -1,0 +1,167 @@
+#footer {
+    width: 100%;
+    .about {
+        height: 275px;
+        .details {
+            height: 275px;
+            .service {
+                display: flex;
+                height: 80px;
+                width: 100%;
+                margin-bottom: 39px;
+                border-bottom: 1px solid #ccc;
+                ul {
+                    flex: 1;
+                    display: flex;
+                    margin: auto;
+                    overflow: hidden;
+                    li {
+                        color: #333;
+                        font-size: 16px;
+                        flex: 5;
+                        text-align: center;
+                        float: left;
+                        height: 25px;
+                        cursor: pointer;
+                        border-right: 1px solid #ccc;
+                        &:last-child{
+                            border: none;
+                        }
+                        span {
+                            vertical-align: 4px;
+                        }
+                        i {
+                            font-size: 24px;
+                        }
+                        &:hover {
+                            color: orangered;
+                        }
+                    }
+                }
+            }
+            .detail {
+                height: 116px;
+                float: left;
+                dl {
+                    float: left;
+                    width: 160px;
+                    height: 112px;
+                    dt {
+                        font-size: 14px;
+                        color: #424242;
+                        margin-bottom: 26px;
+                    }
+                    dd {
+                        margin-top: 10px;
+                        font-size: 12px;
+                        a {
+                            color: #757575;
+                            &:hover {
+                                color: orangered;
+                            }
+                        }
+                    }
+                }
+            }
+            .ask {
+                float: right;
+                border-left: 1px solid #ccc;
+                width: 20%;
+                height: 116px;
+                line-height: 25px;
+                text-align: center;
+                h2 {
+                    font-weight: normal;
+                    color: #ff6700;
+                }
+                p {
+                    line-height: 18px;
+                    color: #333;
+                    font-size: 12px;
+                }
+                a {
+                    display: inline-block;
+                    margin-top: 18px;
+                    width: 120px;
+                    height: 30px;
+                    border: 1px solid #ff6700;
+                    text-align: center;
+                    line-height: 30px;
+                    color: #ff6700;
+                    font-size: 12px;
+                    transition: 0.5s;
+                    &:hover {
+                        background-color: #ff6700;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .notes {
+        background-color: #FAFAFA;
+        height: 166px;
+        .note {
+            box-sizing: border-box;
+            padding-top: 30px;
+            height: 166px;
+            .link {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 57px;
+                .logo {
+                    width: 57px;
+                    height: 57px;
+                    display: inline-block;
+                }
+                .info {
+                    font-size: 12px;
+                    width: 787px;
+                    height: 57px;
+                    line-height: 19px;
+                    display: inline-block;
+                    li {
+                        float: left;
+                        a {
+                            color: #757575;
+                        }
+                        &:after {
+                            content: '|';
+                            margin: 3px;
+                            color: #ccc;
+                        }
+                        &:last-child:after {
+                            content: '';
+                        }
+                    }
+                    p {
+                        clear: both;
+                        color: #ccc;
+                    }
+                    span {
+                        color: #ccc;
+                    }
+                }
+                .partner {
+                    width: 361px;
+                    height: 57px;
+                    display: block;
+                    a {
+                        width: 24%;
+                        height: 57px;
+                        display: inline-block;
+                    }
+                }
+            }
+            .slogan {
+                width: 100%;
+                height: 49px;
+                text-align: center;
+                img {
+                    margin: 30px auto 0;
+                }
+            }
+        }
+    }
+}
